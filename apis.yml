@@ -1,0 +1,44 @@
+aid: newton
+name: Newton
+description: >-
+  Newton is a Linux Foundation project providing an open source physics engine contributed by Disney Research, NVIDIA, and Google DeepMind. It enables high-fidelity physics simulation for AI training, robotics, gaming, and scientific research applications.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Physics
+  - Simulation
+  - AI
+  - Linux Foundation
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/newton/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: newton:newton-api
+    name: Newton API
+    description: >-
+      Programmatic access to Newton physics simulation APIs, robotics tools, and AI training environment resources.
+    humanURL: https://www.linuxfoundation.org/
+    tags:
+  - Physics
+  - Simulation
+  - AI
+  - Linux Foundation
+    properties:
+      - type: Documentation
+        url: https://www.linuxfoundation.org/
+common:
+  - type: Documentation
+    name: Newton Documentation
+    description: Official documentation for Newton.
+    url: https://www.linuxfoundation.org/
+  - type: GitHubOrg
+    name: Newton GitHub
+    description: Source code and repositories for Newton.
+    url: https://github.com/newton-physics
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
