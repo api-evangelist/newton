@@ -23,10 +23,10 @@ apis:
       Programmatic access to Newton physics simulation APIs, robotics tools, and AI training environment resources.
     humanURL: https://www.linuxfoundation.org/
     tags:
-  - Physics
-  - Simulation
-  - AI
-  - Linux Foundation
+      - Physics
+      - Simulation
+      - AI
+      - Linux Foundation
     properties:
       - type: Documentation
         url: https://www.linuxfoundation.org/
