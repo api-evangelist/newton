@@ -57,6 +57,19 @@ apis:
       - type: GitHubOrg
         url: https://github.com/newton-physics
 common:
+  - type: IssueTracker
+    url: https://github.com/newton-physics/newton/issues
+  - type: Releases
+    url: https://github.com/newton-physics/newton/releases
+  - type: SecurityPolicy
+    url: https://github.com/newton-physics/newton/blob/main/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/newton-physics/newton/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/newton-physics/newton/blob/main/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/newton-physics/newton/blob/main/LICENSE
   - type: Documentation
     name: Newton Documentation
     description: Official documentation for the Newton physics engine.
