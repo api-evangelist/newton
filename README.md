@@ -1,4 +1,4 @@
-# Newton (newton)
+# Newton
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,59 +66,94 @@
 
 Newton is a Linux Foundation open source physics engine, contributed by Disney Research, NVIDIA, and Google DeepMind. Built on NVIDIA Warp and integrating MuJoCo Warp as a backend, Newton targets roboticists and simulation researchers, providing GPU-accelerated, differentiable, OpenUSD-compatible physics simulation for AI training, robotics, gaming, and scientific research.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/newton/refs/heads/main/apis.yml)
+**Areas:** Artificial Intelligence · Linux Foundation · Physics · Simulation · Robotics · GPU
 
-## Scope
+## Newton on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Newton is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/newton/](https://apis.io/providers/newton/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- AI
-- Linux Foundation
-- Physics
-- Simulation
-- Robotics
-- GPU
+- [Newton Physics Engine](https://apis.io/apis/newton/newton/) — Newton is a Python library and physics simulation engine. It is consumed programmatically via Python (not as an HTTP API), targeting robotics simulation,…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Plans and pricing (1)
 
-### Newton Physics Engine
+Published plans, tiers and prices.
 
-Newton is a Python library and physics simulation engine. It is consumed programmatically via Python (not as an HTTP API), targeting robotics simulation, reinforcement learning, and physics-based AI training workloads on GPU.
+- [Newton Plans Pricing](https://apis.io/plans/newton/newton-plans-pricing/)
 
-**Human URL:** [https://newton-physics.github.io/newton/](https://newton-physics.github.io/newton/)
+#### Rate limits (1)
 
-#### Tags
+Published request limits.
 
-- AI
-- Physics
-- Simulation
-- Robotics
-- GPU
+- [Newton Rate Limits](https://apis.io/rate-limits/newton/newton-rate-limits/)
 
-#### Properties
+#### FinOps (1)
 
+What the API costs to run, by operation.
+
+- [Newton Finops](https://apis.io/finops/newton/newton-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://newton-physics.github.io)
 - [Documentation](https://newton-physics.github.io/newton/)
-- [Source Code](https://github.com/newton-physics/newton)
-- [GitHub Organization](https://github.com/newton-physics)
 
-## Common Properties
+## API Evangelist rating
 
-- [Documentation](https://newton-physics.github.io/newton/)
-- [Source Code](https://github.com/newton-physics/newton)
-- [GitHub Organization](https://github.com/newton-physics)
-- [Linux Foundation](https://www.linuxfoundation.org/)
+**Kin Score 21.5** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 7.9 |
 
-**FN:** Kin Lane
+**Agent readiness 0.6** — human-only
 
-**Email:** info@apievangelist.com
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/newton/](https://apis.io/providers/newton/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Newton: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/newton/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
